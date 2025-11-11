@@ -91,6 +91,8 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.media.c2-V1-ndk.so', 'android.hardware.media.c2-V2-ndk.so'),
     'vendor/etc/perf/perfboostsconfig.xml': blob_fixup()
         .regex_replace(r'Enable="false"', r'Enable="true"'),
+    'vendor/etc/sensors/hals.conf': blob_fixup()
+        .regex_replace(r'sensors\.qsh\.so', 'sensors.fusionlight.so'),
     (
         'vendor/etc/media_codecs_canoe_sku3.xml',
         'vendor/etc/media_codecs_canoe_v2.xml',
