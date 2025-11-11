@@ -806,9 +806,12 @@ vendor/lib64/libqtikeymaster4.so
 vendor/lib64/libspcom.so
 
 # Sensors
+odm/bin/hw/vendor-oplus-hardware-oplusSensor-V1-service
 odm/bin/oplus_sensor_fb
 odm/bin/oplus_sensor_logger_daemon
 odm/etc/init/init.oplus.sensor.rc
+odm/etc/init/vendor-oplus-hardware-oplusSensor-V1-service.rc
+odm/etc/vintf/manifest/manifest_oplusSensor_aidl.xml
 odm/lib64/liboplus_service.so
 odm/lib64/libsensorbridge.so
 vendor/bin/hw/vendor.qti.hardware.sensorscalibrate-service
@@ -824,7 +827,6 @@ vendor/etc/init/vendor.sensors.sscrpcd.rc
 vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
 vendor/etc/seccomp_policy/qsap_dcfd.policy
 vendor/etc/seccomp_policy/qsap_sensors.policy
-vendor/etc/sensors/hals.conf
 vendor/etc/vintf/manifest/vendor.qti.hardware.sensorscalibrate.xml
 vendor/etc/qlm_config.xml
 vendor/lib64/libQshQmiIDL.so
