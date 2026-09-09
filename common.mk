@@ -380,7 +380,8 @@ PRODUCT_PACKAGES += \
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
-    FrameworksResTargetPhone
+    FrameworksResTargetPhone \
+    NfcResCommon_Sys
 endif
 
 # Partitions
