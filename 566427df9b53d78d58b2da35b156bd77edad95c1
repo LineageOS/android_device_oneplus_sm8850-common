@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "9b31c08d_74c5dd43",
+        "filename": "vendor.prop",
+        "patchSetId": 4
+      },
+      "lineNbr": 301,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-22T06:46:28Z",
+      "side": 1,
+      "message": "prov40 is unset on 15T, but it might only be set on builds with gapps, so would leave it as is, dropping it doesn\u0027t help with RKP L1 anyway.",
+      "revId": "566427df9b53d78d58b2da35b156bd77edad95c1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
