@@ -212,7 +212,6 @@ vendor/lib64/libdmap_consent_sdk.so
 vendor/lib64/libdpp_manager.so
 vendor/lib64/libdpps.so
 vendor/lib64/libgame_enhance.so
-vendor/lib64/libhwcsensor.so
 vendor/lib64/libmemutils.so
 vendor/lib64/libqdcm-algo.so
 vendor/lib64/libqdcm-json-mode-parser.so
@@ -484,7 +483,6 @@ odm/bin/hw/vendor.oplus.hardware.displaypanelfeature-service
 odm/bin/cwb_utils_aidl
 odm/etc/init/vendor.oplus.hardware.displaypanelfeature-service.rc
 odm/etc/vintf/manifest/manifest_displaycolorfeature_aidl.xml
-odm/etc/vintf/manifest/manifest_oplus_cwb_aidl.xml
 odm/etc/vintf/manifest/manifest_oplus_displaypanelfeature_aidl.xml
 odm/etc/vintf/manifest/vintf_manifext_aidl_panelchaplin.xml
 odm/lib64/libPanelChaplin.so
@@ -494,7 +492,6 @@ odm/lib64/libdpaservice.so
 odm/lib64/libstc_color_feature.so
 vendor/lib64/libPanelChaplin.so;MODULE_SUFFIX=_vendor
 vendor/lib64/libcwb_client_vendor.so
-vendor/lib64/libcwb_qcom_aidl.so
 vendor/lib64/libdtlm.so
 
 # OPLUS Log Core
