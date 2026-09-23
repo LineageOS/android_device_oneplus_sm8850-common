@@ -76,7 +76,7 @@ vendor/lib64/vendor.qti.hardware.data.qmiaidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.mwqemadapteraidlservice-V1-ndk.so
 vendor/lib64/vendor.qti.latencyaidlservice-V1-ndk.so
 
-# Context Hub
+# Context hub
 odm/etc/init/android.hardware.contexthub-service.qmi.rc
 odm/etc/vintf/manifest/android.hardware.contexthub-service.qmi.xml
 vendor/bin/hw/android.hardware.contexthub-service.qmi
@@ -155,7 +155,7 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprint@2.1-service.rc
 odm/etc/vintf/manifest/manifest_oplus_fingerprint_aidl_v3.xml
 
-# Fingerprint Pay
+# Fingerprint pay
 odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service
 odm/etc/init/vendor.oplus.hardware.biometrics.fingerprintpay@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplus_ifaa.xml
@@ -182,11 +182,9 @@ vendor/etc/init/android.hardware.gnss-aidl-service-qti.rc
 vendor/etc/init/loc-launcher.rc
 vendor/etc/init/lowi-server.rc
 vendor/etc/init/xtra-daemon.rc
-vendor/etc/qspa/nav_disabled.rc
 vendor/etc/seccomp_policy/gnss@2.0-base.policy
 vendor/etc/seccomp_policy/gnss@2.0-edgnss-daemon.policy
 vendor/etc/seccomp_policy/gnss@2.0-xtwifi-client.policy
-vendor/etc/vintf/manifest/qspa/qspa-nav.xml
 vendor/etc/vintf/manifest/android.hardware.gnss-aidl-service-qti.xml
 vendor/etc/vintf/manifest/vendor.qti.gnss-service.xml
 vendor/etc/gnss_antenna_info.conf
@@ -226,6 +224,7 @@ vendor/lib64/liblocdiagiface.so
 vendor/lib64/liblowi_client.so
 vendor/lib64/liblowi_common.so
 vendor/lib64/liblowi_wifihal.so
+vendor/lib64/libpal_net_if.so
 vendor/lib64/libslimclient.so
 vendor/lib64/libsynergy_loc_api.so
 vendor/lib64/libsys_info_cache.so
@@ -235,6 +234,7 @@ vendor/lib64/vendor.qti.gnss-V8-ndk.so
 vendor/lib64/vendor.qti.gnss-service.so
 
 # IMS
+system/etc/sysconfig/qti_whitelist.xml
 system_ext/app/ImsDataChannelService/ImsDataChannelService.apk
 system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml
 system_ext/etc/permissions/vendor.qti.imsdatachannel.xml
@@ -308,51 +308,30 @@ vendor/lib64/vendor.qti.ims.rcsuceaidlservice-V1-ndk.so
 # Keylayout
 system/usr/keylayout/gpio-keys.kl:vendor/usr/keylayout/gpio-keys.kl
 
+# QMS
+vendor/bin/qms
+vendor/etc/bpf/qmsUidStats.o
+vendor/etc/init/qms.rc
+vendor/etc/seccomp_policy/qms.policy
+vendor/etc/vintf/manifest/qms-saidl.xml
+vendor/lib64/libdmap_consent_sdk.so
+vendor/lib64/libqms.so
+vendor/lib64/libqms_client.so
+vendor/lib64/libqms_coex_sdk.so
+vendor/lib64/libqms_optimized_route_mgr_sdk.so
+vendor/lib64/libqms_packetstats_sdk.so
+vendor/lib64/libqms_sdf_sdk.so
+
 # QSPA
+vendor/etc/qspa/nav_disabled.rc
 vendor/etc/vintf/manifest/qspa/qspa-modem.xml
+vendor/etc/vintf/manifest/qspa/qspa-nav.xml
 
 # RemoteFS
 vendor/bin/rmt_storage
 vendor/etc/init/vendor.qti.rmt_storage.rc
 
 # RIL
-odm/bin/hw/mdm_feature
-odm/bin/hw/subsys_daemon
-odm/bin/commcenterd
-odm/bin/init.subsys.sh
-odm/etc/init/commcenterd.rc
-odm/etc/init/init.network.rc
-odm/etc/init/mdm_feature.rc
-odm/etc/init/subsys_daemon.rc
-odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
-odm/etc/vintf/manifest/device_manifest_subsys.xml
-odm/etc/QtiFtmPublicKey.pem
-odm/etc/oem_TDD-BYPASS_platfrom_license.pfm
-odm/etc/oem_TDD-BYPASS_platfrom_trail_license.pfm
-odm/etc/oem_asm2_tunner_platform_license.pfm
-odm/etc/oem_asm2_tunner_platform_trail_license.pfm
-odm/etc/oem_q_tunner_platform_license.pfm
-odm/etc/oem_q_tunner_platform_trail_license.pfm
-odm/etc/oem_stx_platform_license.pfm
-odm/etc/oplusdycnvbk_items.xml
-odm/etc/plugin_config.xml
-odm/lib64/lib-virtual-modem-protos.so
-odm/lib64/libcommcenterfw.so
-odm/lib64/libcommcenterutils.so
-odm/lib64/libdmtp-protos-lite.so
-odm/lib64/libdmtp.so
-odm/lib64/libdmtpclient.so
-odm/lib64/libimsortcapis.so
-odm/lib64/libipc-framework.so
-odm/lib64/libipcapis.so
-odm/lib64/libmindroid-app.so
-odm/lib64/libmindroid-framework.so
-odm/lib64/libortc_so.so
-odm/lib64/libqti-radio-service.so
-odm/lib64/libradioapis.so
-odm/lib64/librfapis.so
-odm/lib64/libsubsys-utils.so
-odm/lib64/libvasapi.so
 system_ext/app/QtiTelephonyService/QtiTelephonyService.apk
 system_ext/etc/permissions/qcrilhook.xml
 system_ext/etc/permissions/qti_libpermissions.xml
@@ -362,12 +341,9 @@ system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/hw/qcrilNrd
 vendor/bin/init.qcrild.sh
 vendor/bin/ks
-vendor/bin/qms
 vendor/bin/qtigetprop
 vendor/bin/qtisetprop
-vendor/etc/bpf/qmsUidStats.o
 vendor/etc/init/qcrilNrd.rc
-vendor/etc/init/qms.rc
 vendor/etc/qcril_database/upgrade/config/0006.0_config.sql;FILEGROUP=proprietary_rildb_config_sql_files
 vendor/etc/qcril_database/upgrade/config/0007.0_config.sql;FILEGROUP=proprietary_rildb_config_sql_files
 vendor/etc/qcril_database/upgrade/config/0008.0_config.sql;FILEGROUP=proprietary_rildb_config_sql_files
@@ -397,10 +373,8 @@ vendor/etc/qcril_database/upgrade/other/0014_version_update_modules.sql;FILEGROU
 vendor/etc/qcril_database/upgrade/other/0015_version_add_iccid_clir_pref_table.sql;FILEGROUP=proprietary_rildb_other_sql_files
 vendor/etc/qcril_database/upgrade/other/0016_version_update_ecc_table.sql;FILEGROUP=proprietary_rildb_other_sql_files
 vendor/etc/seccomp_policy/qcrilnr@2.0.policy
-vendor/etc/seccomp_policy/qms.policy
 vendor/etc/vintf/manifest/android.hardware.radio.config.xml
 vendor/etc/vintf/manifest/deviceinfo-saidl.xml
-vendor/etc/vintf/manifest/qms-saidl.xml
 vendor/etc/vintf/manifest/vendor.qti.hardware.radio.qtiradioconfig.xml
 vendor/etc/SDA_official_license.pfm
 vendor/etc/SDA_official_license_for_SM8845.pfm
@@ -433,12 +407,6 @@ vendor/lib64/libqcrilNrVoiceModule.so
 vendor/lib64/libqcrildataaidl.so
 vendor/lib64/libqcrildatactl.so
 vendor/lib64/libqdpr.so
-vendor/lib64/libqms.so
-vendor/lib64/libqms_client.so
-vendor/lib64/libqms_coex_sdk.so
-vendor/lib64/libqms_optimized_route_mgr_sdk.so
-vendor/lib64/libqms_packetstats_sdk.so
-vendor/lib64/libqms_sdf_sdk.so
 vendor/lib64/libril-db.so
 vendor/lib64/libril-legacy.so
 vendor/lib64/libril-qc-ltedirectdisc.so
@@ -485,7 +453,46 @@ vendor/lib64/vendor.qti.hardware.radio.uim-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_client-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server-V1-ndk.so
 
-# RIL - UIM
+# RIL (Oplus)
+odm/bin/hw/mdm_feature
+odm/bin/hw/subsys_daemon
+odm/bin/commcenterd
+odm/bin/init.subsys.sh
+odm/etc/init/commcenterd.rc
+odm/etc/init/init.network.rc
+odm/etc/init/mdm_feature.rc
+odm/etc/init/subsys_daemon.rc
+odm/etc/vintf/manifest/device_manifest_communication_center_aidl.xml
+odm/etc/vintf/manifest/device_manifest_subsys.xml
+odm/etc/QtiFtmPublicKey.pem
+odm/etc/oem_TDD-BYPASS_platfrom_license.pfm
+odm/etc/oem_TDD-BYPASS_platfrom_trail_license.pfm
+odm/etc/oem_asm2_tunner_platform_license.pfm
+odm/etc/oem_asm2_tunner_platform_trail_license.pfm
+odm/etc/oem_q_tunner_platform_license.pfm
+odm/etc/oem_q_tunner_platform_trail_license.pfm
+odm/etc/oem_stx_platform_license.pfm
+odm/etc/oplusdycnvbk_items.xml
+odm/etc/plugin_config.xml
+odm/lib64/lib-virtual-modem-protos.so
+odm/lib64/libcommcenterfw.so
+odm/lib64/libcommcenterutils.so
+odm/lib64/libdmtp-protos-lite.so
+odm/lib64/libdmtp.so
+odm/lib64/libdmtpclient.so
+odm/lib64/libimsortcapis.so
+odm/lib64/libipc-framework.so
+odm/lib64/libipcapis.so
+odm/lib64/libmindroid-app.so
+odm/lib64/libmindroid-framework.so
+odm/lib64/libortc_so.so
+odm/lib64/libqti-radio-service.so
+odm/lib64/libradioapis.so
+odm/lib64/librfapis.so
+odm/lib64/libsubsys-utils.so
+odm/lib64/libvasapi.so
+
+# RIL (UIM)
 product/app/uimgbaservice/uimgbaservice.apk
 product/app/uimremoteclient/uimremoteclient.apk
 product/app/uimremoteserver/uimremoteserver.apk
