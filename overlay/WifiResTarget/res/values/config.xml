@@ -13,6 +13,9 @@
     <!-- Wifi driver supports IEEE80211AX for softap -->
     <bool name="config_wifiSoftapIeee80211axSupported">true</bool>
 
+    <!-- Wifi driver supports IEEE80211BE for softap -->
+    <bool name="config_wifiSoftapIeee80211beSupported">true</bool>
+
     <!-- Wifi driver supports IEEE80211AX single user beamformer for softap -->
     <bool name="config_wifiSoftapHeSuBeamformerSupported">true</bool>
 
@@ -22,6 +25,17 @@
     <!-- Wifi driver supports 6GHz band for softap when chip support 6GHz -->
     <bool name="config_wifiSoftap6ghzSupported">true</bool>
 
+    <!-- Maximum number of multi-link devices supported by the soft AP. -->
+    <integer name="config_wifiSoftApMaxNumberMLDSupported">2</integer>
+
+    <!-- Bridged AP and STA + bridged AP modes remain conditional on the
+         interface combinations supported by the Wi-Fi HAL. -->
+    <bool name="config_wifiBridgedSoftApSupported">true</bool>
+    <bool name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
+
+    <!-- Use the vendor HAL roaming API to disable firmware roaming. -->
+    <bool name="config_wifiUseHalApiToDisableFwRoaming">true</bool>
+
     <!-- Configure wifi tcp buffersizes in the form:
          rmem_min,rmem_def,rmem_max,wmem_min,wmem_def,wmem_max -->
     <string name="config_wifi_tcp_buffers" translatable="false">524288,1048576,8808040,524288,1048576,6710886</string>
@@ -29,4 +43,9 @@
     <!-- Enable concurrent restricted connectivity + internet connectivity
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool name="config_wifiMultiStaRestrictedConcurrencyEnabled">true</bool>
+
+    <!-- Enable concurrent local-only + internet and internet + internet
+         connectivity when the device supports dual concurrent STAs. -->
+    <bool name="config_wifiMultiStaLocalOnlyConcurrencyEnabled">true</bool>
+    <bool name="config_wifiMultiStaMultiInternetConcurrencyEnabled">true</bool>
 </resources>
