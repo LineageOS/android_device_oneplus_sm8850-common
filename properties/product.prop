@@ -8,6 +8,13 @@ ro.af.client_heap_size_kbyte=7168
 
 # Bluetooth
 bluetooth.device_id.vendor_id=0x001D
+bluetooth.hfp.swb.supported=true
+persist.bluetooth.a2dp.lhdc=true
+persist.bluetooth.a2dp_aac_abr.enable=true
+persist.bluetooth.absvolume_support=true
+persist.bluetooth.airpods_support=false
+persist.bluetooth.avrcp.force_error_to_pause=true
+persist.bluetooth.bluetooth_asd_enable=true
 
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
