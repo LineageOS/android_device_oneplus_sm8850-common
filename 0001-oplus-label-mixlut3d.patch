@@ -1,0 +1,55 @@
+From 53b2d368925c1705797418ebc13d8fcfbc4a4160 Mon Sep 17 00:00:00 2001
+From: Codex <codex@localhost>
+Date: Sun, 27 Sep 2026 17:27:51 +0530
+Subject: [PATCH] sepolicy: Label the Oplus MixLut3D service
+
+Use the stock service label and allow composer to register MixLut3D.
+Without the mapping, registration is denied as default_android_service.
+
+Fixes:
+  avc: denied { add } for name=vendor.oplus.hardware.display.MixLut3D.IMixLut3D/default scontext=u:r:hal_graphics_composer_default:s0 tcontext=u:object_r:default_android_service:s0 tclass=service_manager permissive=0
+---
+ sepolicy/qti/vendor/hal_graphics_composer_default.te | 1 +
+ sepolicy/qti/vendor/service.te                       | 1 +
+ sepolicy/qti/vendor/service_contexts                 | 1 +
+ 3 files changed, 3 insertions(+)
+
+diff --git a/sepolicy/qti/vendor/hal_graphics_composer_default.te b/sepolicy/qti/vendor/hal_graphics_composer_default.te
+index 9eaf4bb..9323d3d 100644
+--- a/sepolicy/qti/vendor/hal_graphics_composer_default.te
++++ b/sepolicy/qti/vendor/hal_graphics_composer_default.te
+@@ -2,6 +2,7 @@ binder_call(hal_graphics_composer_default, hal_graphics_composer_default)
+ 
+ add_service(hal_graphics_composer_default, hal_display_iris_aidl_service)
+ add_service(hal_graphics_composer_default, hal_oplus_cwb_aidl_service)
++add_service(hal_graphics_composer_default, hal_oplus_display_mixlut3d_service)
+ add_service(hal_graphics_composer_default, hal_oplus_displaycolor_aidl_service)
+ 
+ allow hal_graphics_composer_default fwk_sensor_service:service_manager find;
+diff --git a/sepolicy/qti/vendor/service.te b/sepolicy/qti/vendor/service.te
+index ab5ef40..7b70d3b 100644
+--- a/sepolicy/qti/vendor/service.te
++++ b/sepolicy/qti/vendor/service.te
+@@ -15,6 +15,7 @@ type hal_oplus_commondcs_aidl_service, hal_service_type, service_manager_type;
+ type hal_oplus_cwb_aidl_service, hal_service_type, service_manager_type;
+ 
+ # Display
++type hal_oplus_display_mixlut3d_service, hal_service_type, service_manager_type;
+ type hal_oplus_displaycolor_aidl_service, hal_service_type, service_manager_type;
+ type hal_oplus_displaypanel_aidl_service, hal_service_type, service_manager_type;
+ 
+diff --git a/sepolicy/qti/vendor/service_contexts b/sepolicy/qti/vendor/service_contexts
+index 0db3741..37388e4 100644
+--- a/sepolicy/qti/vendor/service_contexts
++++ b/sepolicy/qti/vendor/service_contexts
+@@ -18,6 +18,7 @@ vendor.oplus.hardware.commondcs.ICommonDcsAidlHalService/default    u:object_r:h
+ vendor.oplus.hardware.cwb.ICwbService/default    u:object_r:hal_oplus_cwb_aidl_service:s0
+ 
+ # Display
++vendor.oplus.hardware.display.MixLut3D.IMixLut3D/default    u:object_r:hal_oplus_display_mixlut3d_service:s0
+ vendor.oplus.hardware.displaycolorfeature.IDisplayColorFeature/default   u:object_r:hal_oplus_displaycolor_aidl_service:s0
+ vendor.oplus.hardware.displaypanelfeature.IDisplayPanelFeature/default   u:object_r:hal_oplus_displaypanel_aidl_service:s0
+ 
+-- 
+2.54.0 (Apple Git-157)
+
