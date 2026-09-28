@@ -11,4 +11,4 @@ ro.sys.reserve.integrate=true
 ro.vendor.oplus.radio.carrier_detect_mode=1
 
 # SVN
-ro.build.version.svn=51
+ro.build.version.svn=52
