@@ -18,6 +18,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "5b6a123b_f12e0f81",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:52:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "481391bd_5141f6df",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "a4271f24_8f9540f5",
@@ -35,6 +53,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "324d17d9_ef45cbd9",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:52:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "a4271f24_8f9540f5",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "5f340a7d_8a377887",
@@ -48,6 +84,24 @@
       "writtenOn": "2026-09-28T07:18:39Z",
       "side": 1,
       "message": "And this?",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "5462d5c4_6fffa443",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:52:05Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "5f340a7d_8a377887",
       "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
