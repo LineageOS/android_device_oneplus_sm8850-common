@@ -1,0 +1,72 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "481391bd_5141f6df",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 527,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:18:39Z",
+      "side": 1,
+      "message": "This too",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a4271f24_8f9540f5",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 538,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:18:39Z",
+      "side": 1,
+      "message": "Also this?",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "5f340a7d_8a377887",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:18:39Z",
+      "side": 1,
+      "message": "And this?",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d2050faa_10e1e83e",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:18:39Z",
+      "side": 1,
+      "message": "And this?",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
