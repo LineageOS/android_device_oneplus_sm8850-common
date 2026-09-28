@@ -285,9 +285,6 @@ vendor.media.omx=0
 # MTE
 ro.arm64.memtag.bootctl_supported=1
 
-# Pasr
-vendor.pasr.activemode.enabled=true
-
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=3.0
