@@ -48,6 +48,30 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "e96d8b38_af4532a4",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T08:29:46Z",
+      "side": 0,
+      "message": "Interesting, it\u0027s different from sm8750.",
+      "parentUuid": "f8a09120_381e4f95",
+      "range": {
+        "startLine": 378,
+        "startChar": 0,
+        "endLine": 378,
+        "endChar": 42
+      },
+      "revId": "c1183772bfbccc636955a8ebaf73b3d08eba1099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "d02dca8f_54a3fe83",
