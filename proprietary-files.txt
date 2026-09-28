@@ -1,5 +1,5 @@
 ## All proprietary files from this list, unless pinned and noted otherwise,
-## are from OnePlus 15R (CPH2767_16.0.10.500(EX01)).
+## are from OnePlus 15R (CPH2767_16.0.10.600(EX01)).
 
 # ACDBs
 vendor/etc/acdbdata/haptics_data/tuning_data/haptics_rx_tuning_0_cdp.bin
