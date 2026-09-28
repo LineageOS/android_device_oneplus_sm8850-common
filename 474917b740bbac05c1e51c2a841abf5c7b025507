@@ -1,0 +1,84 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4d9add47_909284ab",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 535,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:53:02Z",
+      "side": 1,
+      "message": "Needed?",
+      "range": {
+        "startLine": 534,
+        "startChar": 0,
+        "endLine": 535,
+        "endChar": 32
+      },
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bef669aa_a0a81454",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:53:02Z",
+      "side": 1,
+      "message": "Remove?",
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "caa33ab4_b8affa7b",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:53:02Z",
+      "side": 1,
+      "message": "All these can go.",
+      "range": {
+        "startLine": 540,
+        "startChar": 0,
+        "endLine": 542,
+        "endChar": 29
+      },
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "47ff6a12_ff1395d3",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T07:53:02Z",
+      "side": 1,
+      "message": "This too, afaict.",
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
