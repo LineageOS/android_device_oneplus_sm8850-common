@@ -108,7 +108,6 @@ lmh_stats.ko
 lt9611uxc.ko
 mdt_loader.ko
 mem-hooks.ko
-mem-offline.ko
 mem-prot.ko
 mem_buf.ko
 mem_buf_dev.ko

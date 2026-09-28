@@ -98,7 +98,6 @@ mac80211.ko
 machine_dlkm.ko
 mbhc_dlkm.ko
 mem-hooks.ko
-mem-offline.ko
 memlat.ko
 mhi.ko
 mhi_dev_satellite.ko
