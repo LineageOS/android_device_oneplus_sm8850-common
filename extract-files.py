@@ -60,7 +60,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/bin/hw/audiohalservice.qti',
         'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
         'vendor/bin/poweropt-service',
-        'vendor/bin/qsap_mpamsvc',
         'vendor/bin/qvrdatauploader',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
         'vendor/lib64/libaodoptfeature.so',
@@ -90,7 +89,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libprotobuf-cpp-lite.so', 'libprotobuf-cpp-lite-21.12.so'),
     (
         'system_ext/etc/seccomp_policy/tcmd.policy',
-        'vendor/etc/seccomp_policy/qsap_qapeservice.policy',
         'vendor/etc/seccomp_policy/syshealthmon.policy'
     ): blob_fixup()
         .add_line_if_missing('lseek: 1'),
