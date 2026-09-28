@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "d85e9acd_d92574aa",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-28T08:21:09Z",
+      "side": 0,
+      "message": "Is this solely PASR related?",
+      "range": {
+        "startLine": 378,
+        "startChar": 0,
+        "endLine": 378,
+        "endChar": 42
+      },
+      "revId": "c1183772bfbccc636955a8ebaf73b3d08eba1099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
