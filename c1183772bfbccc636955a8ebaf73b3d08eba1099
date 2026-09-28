@@ -26,6 +26,30 @@
     {
       "unresolved": true,
       "key": {
+        "uuid": "f8a09120_381e4f95",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 378,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-28T08:25:21Z",
+      "side": 0,
+      "message": "Yes. https://github.com/TheMuppets/proprietary_vendor_oneplus_sm8850-common/blob/lineage-24.0/proprietary/vendor/bin/init.kernel.init_boot-memory.sh",
+      "parentUuid": "d85e9acd_d92574aa",
+      "range": {
+        "startLine": 378,
+        "startChar": 0,
+        "endLine": 378,
+        "endChar": 42
+      },
+      "revId": "c1183772bfbccc636955a8ebaf73b3d08eba1099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
         "uuid": "d02dca8f_54a3fe83",
         "filename": "proprietary-files.txt",
         "patchSetId": 1
@@ -37,6 +61,30 @@
       "writtenOn": "2026-09-28T08:22:38Z",
       "side": 0,
       "message": "Can\u0027t you remove these too? Very likely other blobs only depend on the aidl interface.",
+      "range": {
+        "startLine": 516,
+        "startChar": 0,
+        "endLine": 517,
+        "endChar": 49
+      },
+      "revId": "c1183772bfbccc636955a8ebaf73b3d08eba1099",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b59c53f2_6c89d134",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 517,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-28T08:25:21Z",
+      "side": 0,
+      "message": "Acknowledged",
+      "parentUuid": "d02dca8f_54a3fe83",
       "range": {
         "startLine": 516,
         "startChar": 0,
