@@ -121,6 +121,24 @@
       "message": "And this?",
       "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "29ed8985_ec2165fd",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 1
+      },
+      "lineNbr": 544,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-09-28T08:07:01Z",
+      "side": 1,
+      "message": "Done",
+      "parentUuid": "d2050faa_10e1e83e",
+      "revId": "2b26cb7627f24bd8c2fc01751b7dd33255af3107",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
