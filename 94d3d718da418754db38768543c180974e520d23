@@ -1,0 +1,27 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "e6d64af3_3004416c",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 586,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T08:08:26Z",
+      "side": 0,
+      "message": "I don\u0027t think you can remove this. At least, on older perf-hal stacks I was seeing dlopen errors.",
+      "range": {
+        "startLine": 586,
+        "startChar": 0,
+        "endLine": 586,
+        "endChar": 35
+      },
+      "revId": "94d3d718da418754db38768543c180974e520d23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
