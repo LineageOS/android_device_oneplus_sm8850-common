@@ -59,21 +59,8 @@ blob_fixups: blob_fixups_user_type = {
         'odm/lib64/libstc_color_feature.so',
         'vendor/bin/hw/audiohalservice.qti',
         'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
-        'vendor/bin/poweropt-service',
-        'vendor/bin/qsap_mpamsvc',
         'vendor/bin/qvrdatauploader',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
-        'vendor/lib64/libaodoptfeature.so',
-        'vendor/lib64/libapengine.so',
-        'vendor/lib64/libcamerapoweroptfeature.so',
-        'vendor/lib64/libgamepoweroptfeature.so',
-        'vendor/lib64/liblearningmodule.so',
-        'vendor/lib64/liboffscreenpoweroptfeature.so',
-        'vendor/lib64/libpowercallback.so',
-        'vendor/lib64/libpowercore.so',
-        'vendor/lib64/libpsmoptfeature.so',
-        'vendor/lib64/libstandbyfeature.so',
-        'vendor/lib64/libvideooptfeature.so',
         'vendor/lib64/soundfx/libquasar.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
@@ -90,7 +77,6 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('libprotobuf-cpp-lite.so', 'libprotobuf-cpp-lite-21.12.so'),
     (
         'system_ext/etc/seccomp_policy/tcmd.policy',
-        'vendor/etc/seccomp_policy/qsap_qapeservice.policy',
         'vendor/etc/seccomp_policy/syshealthmon.policy'
     ): blob_fixup()
         .add_line_if_missing('lseek: 1'),
