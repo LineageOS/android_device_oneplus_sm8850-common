@@ -83,6 +83,24 @@
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     },
     {
+      "unresolved": false,
+      "key": {
+        "uuid": "18ca5225_e0106271",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 537,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T08:08:59Z",
+      "side": 1,
+      "message": "Acknowledged",
+      "parentUuid": "3afb3459_7cfc17a9",
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
       "unresolved": true,
       "key": {
         "uuid": "caa33ab4_b8affa7b",
@@ -120,6 +138,30 @@
       "side": 1,
       "message": "Needed for perf2 Hal service",
       "parentUuid": "caa33ab4_b8affa7b",
+      "range": {
+        "startLine": 540,
+        "startChar": 0,
+        "endLine": 542,
+        "endChar": 29
+      },
+      "revId": "474917b740bbac05c1e51c2a841abf5c7b025507",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "15f6e154_992d1002",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 542,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T08:08:59Z",
+      "side": 1,
+      "message": "Acknowledged, I see the same on sm8750.",
+      "parentUuid": "baf49d88_09128b9f",
       "range": {
         "startLine": 540,
         "startChar": 0,
