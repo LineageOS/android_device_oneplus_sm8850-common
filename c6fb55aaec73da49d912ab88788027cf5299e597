@@ -34,6 +34,24 @@
       "parentUuid": "48ac0823_f4ad08e6",
       "revId": "c6fb55aaec73da49d912ab88788027cf5299e597",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "53aea2aa_7f9f97e9",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 10
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-09-29T18:23:10Z",
+      "side": 1,
+      "message": "So it belong to the other change, not this one.",
+      "parentUuid": "ee465b4c_194a5b37",
+      "revId": "c6fb55aaec73da49d912ab88788027cf5299e597",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
