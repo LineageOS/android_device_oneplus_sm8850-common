@@ -22,6 +22,30 @@
       },
       "revId": "94d3d718da418754db38768543c180974e520d23",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9df6c378_88dd7876",
+        "filename": "proprietary-files.txt",
+        "patchSetId": 5
+      },
+      "lineNbr": 586,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-29T11:38:05Z",
+      "side": 0,
+      "message": "yes, perf stack tries to load it, but it seems fine w/o it",
+      "parentUuid": "e6d64af3_3004416c",
+      "range": {
+        "startLine": 586,
+        "startChar": 0,
+        "endLine": 586,
+        "endChar": 35
+      },
+      "revId": "94d3d718da418754db38768543c180974e520d23",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
