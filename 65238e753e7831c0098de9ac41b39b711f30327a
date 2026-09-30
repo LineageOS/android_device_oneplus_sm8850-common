@@ -16,6 +16,24 @@
       "message": "Instead of moving it to common tree, can we patch it through a blobs fixup?",
       "revId": "65238e753e7831c0098de9ac41b39b711f30327a",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "4972fa0c_8ec58f3e",
+        "filename": "common.mk",
+        "patchSetId": 12
+      },
+      "lineNbr": 440,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-09-30T06:52:49Z",
+      "side": 1,
+      "message": "we can if you prefer that.",
+      "parentUuid": "c0d3c44e_a4940a09",
+      "revId": "65238e753e7831c0098de9ac41b39b711f30327a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
