@@ -143,6 +143,7 @@ nvmem_qfprom.ko
 oplus_bsp_boot_projectinfo.ko
 oplus_bsp_bootloader_log.ko
 oplus_bsp_bootmode.ko
+oplus_bsp_cs_press_f71.ko
 oplus_bsp_dfr_keyevent_handler.ko
 oplus_bsp_dfr_pmic_monitor.ko
 oplus_bsp_dft_kernel_fb.ko
@@ -150,6 +151,7 @@ oplus_bsp_dft_olc.ko
 oplus_bsp_fw_update.ko
 oplus_bsp_haptic.ko
 oplus_bsp_haptic_feedback.ko
+oplus_bsp_pogo_keyboard.ko
 oplus_bsp_synaptics_tcm2.ko
 oplus_bsp_tp_common.ko
 oplus_bsp_tp_custom.ko
@@ -202,7 +204,9 @@ oplus_secure_common.ko
 oplus_sensor_deviceinfo.ko
 oplus_sensor_feedback.ko
 oplus_sensor_interact.ko
+oplus_trace_sensor_err.ko
 oplus_typec_switch_i2c.ko
+oplus_wireless_pen_mt5806.ko
 oplusboot.ko
 panel_event_notifier.ko
 pci-msm-drv.ko

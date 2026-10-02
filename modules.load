@@ -128,7 +128,9 @@ oplus_audio_aw882xx.ko
 oplus_audio_daemon.ko
 oplus_audio_extend.ko
 oplus_audio_netlink.ko
+oplus_audio_tfa98xx.ko
 oplus_audio_tfa98xx_v6.ko
+oplus_bsp_cs_press_f71.ko
 oplus_bsp_dfr_keyevent_handler.ko
 oplus_bsp_dfr_pmic_monitor.ko
 oplus_bsp_dft_kernel_fb.ko
@@ -136,6 +138,7 @@ oplus_bsp_dft_olc.ko
 oplus_bsp_fw_update.ko
 oplus_bsp_haptic.ko
 oplus_bsp_haptic_feedback.ko
+oplus_bsp_pogo_keyboard.ko
 oplus_bsp_synaptics_tcm2.ko
 oplus_bsp_tp_common.ko
 oplus_bsp_tp_custom.ko
@@ -187,7 +190,9 @@ oplus_sensor_feedback.ko
 oplus_sensor_interact.ko
 oplus_sensor_ir_core.ko
 oplus_sensor_kookong_ir_spi.ko
+oplus_trace_sensor_err.ko
 oplus_typec_switch_i2c.ko
+oplus_wireless_pen_mt5806.ko
 panel_event_notifier.ko
 pci-msm-drv.ko
 pci_phy_access.ko
