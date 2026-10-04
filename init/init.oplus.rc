@@ -15,6 +15,10 @@ on property:ro.boot.serialno=*
     # Radio
     setprop ro.vendor.oplus.radio.serialno ${ro.boot.serialno}
 
+on property:vendor.media.system.build_codename=${ro.build.version.release_or_codename}
+    # Media
+    setprop vendor.media.system.build_codename 0
+
 on property:sys.boot_completed=1
     # Widevine
     copy /vendor/etc/oplus_Widevine_licenses.pfm /mnt/vendor/persist/data/pfm/licenses/oplus_Widevine_licenses.pfm
