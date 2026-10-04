@@ -3,6 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+on init
+    # Media
+    setprop vendor.media.system.build_codename 0
+
 on post-fs-data
     # Audio HAL feedback
     chown media media /proc/mm_fb
