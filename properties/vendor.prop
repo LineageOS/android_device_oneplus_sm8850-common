@@ -285,6 +285,9 @@ vendor.media.omx=0
 # MTE
 ro.arm64.memtag.bootctl_supported=1
 
+# Netflix
+vendor.netflix.bsp_rev=Q8850-41474-1
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 ro.vendor.perf-hal.ver=3.0
