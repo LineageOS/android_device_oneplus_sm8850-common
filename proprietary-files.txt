@@ -906,6 +906,7 @@ vendor/lib64/libtime_genoff.so
 odm/bin/touchDaemon
 odm/etc/init/init.touchDaemon.rc
 odm/etc/vintf/manifest/manifest_touch_aidl.xml
+odm/lib64/vendor.oplus.hardware.touch-V2-ndk.so:odm/lib64/vendor.oplus.hardware.touch-V2-ndk_odm.so;FIX_SONAME
 
 # Trusted Execution Environment connector
 vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so

@@ -54,7 +54,6 @@ blob_fixups: blob_fixups_user_type = {
     (
         'odm/bin/hw/vendor-oplus-hardware-touch-V2-hbp5-service',
         'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
-        'odm/bin/touchDaemon',
         'odm/lib64/libdisplayfossfeature_nature.so',
         'odm/lib64/libstc_color_feature.so',
         'vendor/bin/hw/audiohalservice.qti',
@@ -64,6 +63,9 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/soundfx/libquasar.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
+    'odm/bin/touchDaemon': blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so')
+        .replace_needed('vendor.oplus.hardware.touch-V2-ndk.so', 'vendor.oplus.hardware.touch-V2-ndk_odm.so'),
     'odm/etc/gps.conf': blob_fixup()
         .binary_regex_replace(b'com.oplus.locationproxy', b'com.google.android.carrierlocation')
         .binary_regex_replace(b'DEBUG_LEVEL = 3', b'DEBUG_LEVEL = 2'),
