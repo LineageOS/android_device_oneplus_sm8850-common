@@ -88,6 +88,23 @@
       "parentUuid": "ace2ef48_27aa018a",
       "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "b5eed29d_4fa8d327",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-05T08:08:14Z",
+      "side": 1,
+      "message": "Actually did go for V3, only to not have existing V2 ones dying after new changes land, coz im not sure if old styluses are compatible with this format",
+      "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
