@@ -52,6 +52,24 @@
       "parentUuid": "096a50df_11261331",
       "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "ace2ef48_27aa018a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-05T08:07:27Z",
+      "side": 1,
+      "message": "So the AIDL version freeze can be neglected?",
+      "parentUuid": "4e4718f0_499b15f3",
+      "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
