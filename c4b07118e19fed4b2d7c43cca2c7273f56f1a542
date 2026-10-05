@@ -105,6 +105,24 @@
       "message": "Actually did go for V3, only to not have existing V2 ones dying after new changes land, coz im not sure if old styluses are compatible with this format",
       "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "b9e66647_8a39c9b5",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-05T08:14:18Z",
+      "side": 1,
+      "message": "Just double check if V2 was reversed incorrectly. I am starting to believe it was.",
+      "parentUuid": "b5eed29d_4fa8d327",
+      "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
