@@ -96,7 +96,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/etc/media_codecs_canoe_sku3.xml',
         'vendor/etc/media_codecs_canoe_v2.xml',
     ): blob_fixup()
-        .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video|vendor_audio).*\n', ''),
+        .regex_replace('.*media_codecs_(google_audio|google_c2|google_telephony|google_video).*\n', '')
+        .regex_replace('media_codecs_vendor_audio', 'media_codecs_dolby_vision'),
     'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
         .add_needed('libbluetooth_audio_session_aidl_shim.so'),
