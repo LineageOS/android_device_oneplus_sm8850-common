@@ -16,6 +16,24 @@
       "message": "Is it our V2 wrongly reversed?",
       "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "096a50df_11261331",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 34519
+      },
+      "writtenOn": "2026-10-05T07:56:29Z",
+      "side": 1,
+      "message": "Yea V2 doesn\u0027t work with Stylo Pro, i did try, no events being even registered on taps\nMight be a Stylo Pro change as well",
+      "parentUuid": "6e2ac2cb_3be9ba6d",
+      "revId": "c4b07118e19fed4b2d7c43cca2c7273f56f1a542",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
