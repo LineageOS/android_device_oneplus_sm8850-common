@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "f81dbd00_e10fe03e",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-05T21:44:59Z",
+      "side": 1,
+      "message": "```\n$ adb shell dumpsys media.player | grep dv\n  Decoder \"c2.qti.dv.decoder\" supports\n    hal name: \"c2.qti.dv.decoder\"\n  Decoder \"c2.qti.dv.decoder.secure\" supports\n    hal name: \"c2.qti.dv.decoder.secure\"\n  Encoder \"c2.qti.dv.encoder\" supports\n    hal name: \"c2.qti.dv.encoder\"\n```\n\n/w this + I0f911e93b751ab30510337f61c49625e33cf8704",
+      "revId": "165ae5a6120e89bd711ef35324455e53ed238479",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
