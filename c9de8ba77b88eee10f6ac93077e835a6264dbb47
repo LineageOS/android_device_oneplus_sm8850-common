@@ -16,6 +16,23 @@
       "message": "iceland stylo works fine after this changes only",
       "revId": "c9de8ba77b88eee10f6ac93077e835a6264dbb47",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "7ea914ec_07e85995",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 10067
+      },
+      "writtenOn": "2026-10-08T08:51:10Z",
+      "side": 1,
+      "message": "this could possibly be dropped when we move to COS17 blobs?\n\n```\n$ strings /mnt/data/stock-roms/oneplus/PLZ110_17.0.0.106\\(CN01\\)/raw/odm/bin/touchDaemon|grep AA02 \nAA0203%02X\nAA0201%02X\nAA0202%02X\n```",
+      "revId": "c9de8ba77b88eee10f6ac93077e835a6264dbb47",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
