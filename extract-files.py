@@ -56,9 +56,6 @@ blob_fixups: blob_fixups_user_type = {
         'odm/bin/hw/vendor.oplus.hardware.biometrics.fingerprint@2.1-service_uff',
         'odm/lib64/libdisplayfossfeature_nature.so',
         'odm/lib64/libstc_color_feature.so',
-        'vendor/bin/hw/audiohalservice.qti',
-        'vendor/bin/hw/vendor.qti.hardware.display.composer-service',
-        'vendor/bin/qvrdatauploader',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
         'vendor/lib64/soundfx/libquasar.so',
     ): blob_fixup()
