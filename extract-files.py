@@ -57,7 +57,6 @@ blob_fixups: blob_fixups_user_type = {
         'odm/lib64/libdisplayfossfeature_nature.so',
         'odm/lib64/libstc_color_feature.so',
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
-        'vendor/lib64/soundfx/libquasar.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
     'odm/bin/touchDaemon': blob_fixup()

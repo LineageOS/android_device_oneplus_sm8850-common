@@ -85,9 +85,6 @@ vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.ListenSoundModelAidl-V2-ndk.so
 vendor/lib64/vendor.qti.hardware.qasr-V3-ndk.so
 
-# Audio FX modules
-vendor/lib64/soundfx/libquasar.so
-
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@aidl-service-qti
 vendor/etc/init/android.hardware.bluetooth@aidl-service-qti.rc
