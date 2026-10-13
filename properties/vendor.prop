@@ -6,6 +6,7 @@ audio.spatializer.pose_predictor_type=1
 persist.vendor.audio.spf_restart=true
 ro.audio.flinger_standbytime_ms=1000
 ro.audio.monitorRotation=1
+ro.audio.spatializer_enabled=true
 ro.audio.usecase_validator_enabled=true
 vendor.audio.adm.buffering.ms=3
 vendor.audio.c2.preferred=true
