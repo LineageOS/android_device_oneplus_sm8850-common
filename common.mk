@@ -491,6 +491,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.mbms.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.telephony.mbms.xml
 
 $(call inherit-product, hardware/oplus/oplus-fwk/oplus-fwk.mk)
+$(call soong_config_set,oplus,subsys_radio_v1_uses_subsys_v5,true)
 endif
 
 PRODUCT_COPY_FILES += \
