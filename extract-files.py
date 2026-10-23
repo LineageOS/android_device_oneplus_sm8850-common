@@ -37,7 +37,6 @@ lib_fixups: lib_fixups_user_type = {
     (
         'com.qualcomm.qti.dpm.api@1.0',
         'libolc_vnd',
-        'libosensenativeproxy_client',
         'libPanelChaplin',
         'vendor.qti.ImsRtpService-V2-ndk',
         'vendor.qti.diaghal-V1-ndk',
@@ -59,8 +58,6 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/lib64/hw/libaudioeffecthal.qti.so',
     ): blob_fixup()
         .replace_needed('libtinyxml2.so', 'libtinyxml2-v36.so'),
-    'odm/bin/touchDaemon': blob_fixup()
-        .binary_regex_replace(b'AA020118', b'AA020114'),
     'odm/etc/gps.conf': blob_fixup()
         .binary_regex_replace(b'com.oplus.locationproxy', b'com.google.android.carrierlocation')
         .binary_regex_replace(b'DEBUG_LEVEL = 3', b'DEBUG_LEVEL = 2'),
@@ -70,14 +67,7 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'(PROCESS_NAME=xtra-daemon\nPROCESS_ARGUMENT=\nPROCESS_STATE=)ENABLED', r'\1DISABLED'),
     'product/etc/sysconfig/com.android.hotwordenrollment.common.util.xml': blob_fixup()
         .regex_replace('/my_product', '/product'),
-    'system/framework/WfdCommon.jar': blob_fixup()
-        .apktool_patch('blob-patches/WfdCommon.patch'),
-    'system_ext/bin/horae': blob_fixup()
-        .replace_needed('libprotobuf-cpp-lite.so', 'libprotobuf-cpp-lite-21.12.so'),
-    (
-        'system_ext/etc/seccomp_policy/tcmd.policy',
-        'vendor/etc/seccomp_policy/syshealthmon.policy'
-    ): blob_fixup()
+    'vendor/etc/seccomp_policy/syshealthmon.policy': blob_fixup()
         .add_line_if_missing('lseek: 1'),
     'system_ext/lib64/libwfdservice.so': blob_fixup()
         .replace_needed('android.media.audio.common.types-V4-cpp.so', 'android.media.audio.common.types-V5-cpp.so'),

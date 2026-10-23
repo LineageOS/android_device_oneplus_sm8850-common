@@ -74,7 +74,6 @@ PRODUCT_PACKAGES += \
     libdev_usb \
     libdownmixaidl \
     libdynamicsprocessingaidl \
-    libfmpal \
     libhfp_pal \
     libloudnessenhanceraidl \
     libmediautils_vendor.vendor \
@@ -339,7 +338,7 @@ PRODUCT_PACKAGES += \
 # NFC
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
-    android.hardware.nfc-service.nxp \
+    android.hardware.nfc2-service.nxp \
     com.android.nfc_extras \
     Tag
 
