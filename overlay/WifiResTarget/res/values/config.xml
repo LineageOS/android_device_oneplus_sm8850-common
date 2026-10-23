@@ -28,9 +28,8 @@
     <!-- Maximum number of multi-link devices supported by the soft AP. -->
     <integer name="config_wifiSoftApMaxNumberMLDSupported">2</integer>
 
-    <!-- Bridged AP and STA + bridged AP modes remain conditional on the
-         interface combinations supported by the Wi-Fi HAL. -->
-    <bool name="config_wifiBridgedSoftApSupported">true</bool>
+    <!-- STA + bridged AP mode is conditional on the interface combinations
+         supported by the Wi-Fi HAL. -->
     <bool name="config_wifiStaWithBridgedSoftApConcurrencySupported">true</bool>
 
     <!-- Use the vendor HAL roaming API to disable firmware roaming. -->
@@ -44,8 +43,35 @@
          Note: this is conditional on the device supporting dual concurrent STAs. -->
     <bool name="config_wifiMultiStaRestrictedConcurrencyEnabled">true</bool>
 
-    <!-- Enable concurrent local-only + internet and internet + internet
-         connectivity when the device supports dual concurrent STAs. -->
-    <bool name="config_wifiMultiStaLocalOnlyConcurrencyEnabled">true</bool>
+    <!-- Enable concurrent internet connections when the device supports dual concurrent STAs. -->
     <bool name="config_wifiMultiStaMultiInternetConcurrencyEnabled">true</bool>
+
+    <!-- Indicates whether or not the Soft AP needs to be restarted when country code changed -->
+    <bool name="config_wifiForcedSoftApRestartWhenCountryCodeChanged">false</bool>
+
+    <!-- Indicates whether the network-centric QoS policy feature is enabled. -->
+    <bool name="config_wifiNetworkCentricQosPolicyFeatureEnabled">true</bool>
+
+    <!-- Indicates that SAE Hash-to-Element is supported on this device -->
+    <bool name="config_wifiSaeH2eSupported">true</bool>
+
+    <!-- Enable WPA2 to WPA3 auto-upgrade offload to capable Driver/Firmware -->
+    <bool name="config_wifiSaeUpgradeOffloadEnabled">true</bool>
+
+    <!-- Indicates that dynamic country code update in AP mode is supported on this device -->
+    <bool name="config_wifiSoftApDynamicCountryCodeUpdateSupported">true</bool>
+
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE)
+         aka Enhanced Open for Soft-AP -->
+    <bool name="config_wifiSoftapOweSupported">true</bool>
+
+    <!-- Wifi driver supports Opportunistic Wireless Encryption (OWE) Transition
+         aka Enhanced Open for Soft-AP -->
+    <bool name="config_wifiSoftapOweTransitionSupported">true</bool>
+
+    <!-- Indicates that dynamic country code update in STA mode is supported on this device -->
+    <bool name="config_wifiStaDynamicCountryCodeUpdateSupported">true</bool>
+
+    <!-- Override channel utilization estimation with fixed value -->
+    <bool name="config_wifiChannelUtilizationOverrideEnabled">false</bool>
 </resources>
