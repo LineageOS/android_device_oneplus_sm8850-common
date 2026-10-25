@@ -154,6 +154,7 @@ vendor.gatekeeper.disable_spu=true
 vendor.gatekeeper.is_security_level_spu=0
 
 # Graphics
+debug.renderengine.backend=skiavkthreaded
 debug.sf.early.app.duration.144=10333333
 debug.sf.early.app.duration.165=10333333
 debug.sf.early.app.duration.60=16666666
