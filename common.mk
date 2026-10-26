@@ -111,8 +111,11 @@ PRODUCT_PACKAGES += \
 $(call soong_config_set,qtiaudio,extra_device_virtuals,4)
 $(call soong_config_set,qtiaudio,extra_out_devices,1)
 $(call soong_config_set,qtiaudio,extra_in_devices,1)
+$(call soong_config_set,qtiaudio,extra_stream_state_words,1)
 $(call soong_config_set_bool,qtiaudio,nonvirtual_stream_isinitialized,true)
 $(call soong_config_set_bool,qtiaudio,no_stream_mixer_event_callback,true)
+$(call soong_config_set_bool,qtiaudio,payload_builder_custom_codec_format,true)
+$(call soong_config_set_bool,qtiaudio,stream_ecns_tag,true)
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8850/audio/primary-hal
 CONFIG_HAL_SRC_DIR := $(AUDIO_HAL_DIR)/configs/canoe
