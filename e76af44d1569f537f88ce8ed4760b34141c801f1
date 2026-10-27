@@ -57,6 +57,30 @@
       },
       "revId": "e76af44d1569f537f88ce8ed4760b34141c801f1",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4b2690de_cdc4bea2",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 30975
+      },
+      "writtenOn": "2026-10-27T08:39:04Z",
+      "side": 1,
+      "message": "Fix applied.",
+      "parentUuid": "56e15da5_4de430df",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 79
+      },
+      "revId": "e76af44d1569f537f88ce8ed4760b34141c801f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
