@@ -40,4 +40,7 @@
          For example, a device with Home, Back and Menu keys would set this
          config to 7. -->
     <integer name="config_deviceHardwareWakeKeys">72</integer>
+
+    <!-- Cycle ringer mode when long pressing the assistant (search) button -->
+    <integer name="config_longPressOnAssistBehavior">14</integer>
 </resources>
