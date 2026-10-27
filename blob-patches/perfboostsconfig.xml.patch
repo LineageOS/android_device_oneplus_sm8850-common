@@ -1,0 +1,14 @@
+--- a/perfboostsconfig.xml
++++ b/perfboostsconfig.xml
+@@ -1475,5 +1475,11 @@
+         <Config
+             Id="0x00001087" Type="3" Enable="true" Timeout="0" Target="alor"
+             Resources="0x40C78000, 51, 0x40C7C000, 35, 0x41000000, 4, 0x40C00000, 2" />
++
++        <!-- Expensive Rendering -->
++        <!-- GPU - min clock 342 MHz -->
++        <Config
++            Id="0x000010A5" Enable="true" Timeout="0" Target="canoe"
++            Resources="0x42830000, 342" />
+     </PerfBoost>
+ </BoostConfigs>
