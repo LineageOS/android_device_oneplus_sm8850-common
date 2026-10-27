@@ -276,7 +276,6 @@ ro.vendor.vm.ssr.enable=false
 # Widevine
 vendor.wv.oemcrypto.debug.enable_external_display_check=false
 vendor.wv.oemcrypto.debug.enable_hlos_data_path=true
-vendor.wv.oemcrypto.debug.enable_prov40=true
 
 # WiFi
 wifi.aware.interface=wifi-aware0
