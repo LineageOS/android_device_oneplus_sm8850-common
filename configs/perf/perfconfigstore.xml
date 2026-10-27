@@ -13,6 +13,7 @@
         <Prop Name="ro.vendor.perf.semiautopipeline" Value="false" />
         <Prop Name="ro.vendor.perf.autopipeline" Value="false" />
         <Prop Name="ro.vendor.perf.enable.wlclite" Value="false" />
+        <Prop Name="vendor.perf.expensive_rendering" Value="1" />
         <Prop Name="vendor.perf.fps_switch_hyst_time_secs" Value="10" />
     </PerfConfigs>
 </PerfConfigsStore>
