@@ -1,0 +1,44 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "307e4a48_82ef186a",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-27T08:26:03Z",
+      "side": 1,
+      "message": "If you run beautify you end up with this, right?",
+      "revId": "e76af44d1569f537f88ce8ed4760b34141c801f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "56e15da5_4de430df",
+        "filename": "overlay-lineage/lineage-sdk/lineage/res/res/values/config.xml",
+        "patchSetId": 1
+      },
+      "lineNbr": 44,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-10-27T08:26:03Z",
+      "side": 1,
+      "message": "```suggestion\n    \u003c!-- Control the behavior when the user long presses the assistant (search) button.\n            0 - Nothing\n            1 - Menu key\n            2 - Recent apps view in SystemUI\n            3 - Launch assist intent\n            4 - Voice Search\n            5 - In-app Search\n            6 - Launch camera\n            7 - Sleep\n            8 - Last app\n            9 - Toggle split screen\n            10 - Kill foreground app\n            11 - Play/pause music\n            12 - Screenshot\n            13 - Partial screenshot\n            14 - Cycle ringer mode\n         This needs to match the enums in\n         sdk/src/java/org/lineageos/internal/util/DeviceKeysConstants.java.\n    --\u003e\n```",
+      "range": {
+        "startLine": 44,
+        "startChar": 0,
+        "endLine": 44,
+        "endChar": 79
+      },
+      "revId": "e76af44d1569f537f88ce8ed4760b34141c801f1",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
