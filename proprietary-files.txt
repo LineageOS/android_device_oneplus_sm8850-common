@@ -915,7 +915,6 @@ vendor/lib64/vendor.qti.hardware.qteeconnector-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted User Interface
-vendor/lib64/libTxPwrJni.so
 vendor/lib64/libcpion.so
 vendor/lib64/libsi.so
 vendor/lib64/libtrustedapploader.so

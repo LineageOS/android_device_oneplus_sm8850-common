@@ -101,6 +101,8 @@ blob_fixups: blob_fixups_user_type = {
         'vendor/etc/vintf/manifest/c2_manifest_vendor_audio.xml',
     ): blob_fixup()
         .regex_replace(r'(<name>android.hardware.media.c2</name>)(?:\s*<version>\d+</version>)?', r'\1\n        <version>2</version>'),
+    'vendor/etc/vintf/manifest/qms-saidl.xml': blob_fixup()
+        .regex_replace(r'\s*<hal format="aidl">\s*<name>vendor\.qti\.data\.dmapconsent</name>\s*<version>2</version>\s*<fqname>IService/default</fqname>\s*</hal>', ''),
     'vendor/lib64/libaudioserviceexampleimpl.so': blob_fixup()
         .add_needed('libaudioutils_shim.so')
         .add_needed('libbluetooth_audio_session_aidl_shim.so'),
