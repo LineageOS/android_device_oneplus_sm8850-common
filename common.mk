@@ -560,11 +560,14 @@ DEVICE_MANIFEST_FILE := \
     $(LOCAL_PATH)/vintf/manifest_canoe.xml
 DEVICE_MATRIX_FILE := hardware/qcom-caf/common/compatibility_matrix_aidl.xml
 
+ODM_MANIFEST_FILES := \
+    $(LOCAL_PATH)/vintf/bluetooth_audio.xml
+
 ifneq ($(TARGET_IS_TABLET),true)
 DEVICE_MANIFEST_FILE += \
     $(LOCAL_PATH)/vintf/network_manifest.xml
 
-ODM_MANIFEST_FILES := \
+ODM_MANIFEST_FILES += \
     $(LOCAL_PATH)/vintf/network_manifest_odm.xml
 endif
 
