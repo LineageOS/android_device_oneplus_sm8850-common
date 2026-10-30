@@ -1,9 +1,6 @@
 # Audio
-qcom.hw.aac.encoder=true
 ro.audio.ihaladaptervendorextension_enabled=true
 ro.oplus.audio.aidl_volume=true
-tunnel.audio.encode=true
-use.voice.path.for.pcm.voip=true
 
 # Bluetooth
 persist.bluetooth.finder.supported=true
@@ -33,9 +30,6 @@ sys.brightness.disable_gamma_conversion=true
 # DPM
 persist.vendor.dpm.feature=11
 
-# GPS
-persist.backup.ntpServer=0.pool.ntp.org
-
 # Horae
 persist.sys.horae.enable=1
 
@@ -49,27 +43,15 @@ persist.vendor.ims.vt.enableadb=3
 # Media
 media.aac_51_output_enabled=true
 media.stagefright.thumbnail.prefer_hw_codecs=true
-mmp.enable.3g2=true
-persist.mm.enable.prefetch=true
 ro.media.recorder-max-base-layer-fps=60
 vendor.mm.enable.qcom_parser=16777215
 
 # Netmgr
-persist.data.df.agg.dl_pkt=10
-persist.data.df.agg.dl_size=4096
-persist.data.df.dev_name=rmnet_usb0
-persist.data.df.dl_mode=5
-persist.data.df.iwlan_mux=9
-persist.data.df.mux_count=8
-persist.data.df.ul_mode=5
-persist.data.wda.enable=true
-persist.rmnet.data.enable=true
 persist.vendor.data.mode=concurrent
 persist.vendor.data.mutualex.mode=disabled
 
 # Radio
 persist.oplus.qspa.modem=enabled
-persist.radio.hvolte.enable=1
 ril.subscription.types=NV,RUIM
 ro.telephony.sim_slots.count=2
 telephony.active_modems.max_count=2

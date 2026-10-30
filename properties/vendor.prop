@@ -118,7 +118,6 @@ vendor.display.disable_offline_rotator=1
 vendor.display.disable_query_luts=0
 vendor.display.disable_sdr_dimming=0
 vendor.display.disable_sdr_histogram=1
-vendor.display.disable_spec_fence=1
 vendor.display.disable_stc_dimming=1
 vendor.display.enable_async_powermode=0
 vendor.display.enable_async_vds_creation=1
@@ -131,8 +130,6 @@ vendor.display.enable_rc_support=1
 vendor.display.enable_rounded_corner=1
 vendor.display.force_lm_to_fb_config=1
 vendor.display.force_tonemapping=1
-vendor.display.hightempaging_dbv=3032
-vendor.display.smomo_game_support=0
 vendor.display.uir_support=1
 vendor.display.use_smooth_motion=1
 vendor.display.vds_allow_hwc=1
@@ -232,11 +229,8 @@ ro.arm64.memtag.bootctl_supported=1
 
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
-ro.vendor.perf-hal.ver=3.0
 ro.vendor.perf.scroll_opt=1
 ro.vendor.qspm.enable=true
-vendor.perf.framepacing.enable=1
-vendor.perf.qfps.enable=1
 
 # Radio
 persist.radio.multisim.config=dsds
@@ -246,9 +240,6 @@ persist.vendor.radio.enableadvancedscan=true
 persist.vendor.radio.procedure_bytes=SKIP
 persist.vendor.radio.sib16_support=1
 ro.telephony.default_network=26,26
-
-# RCS
-persist.vendor.rcs.singlereg.feature=2
 
 # Secureprocessor
 vendor.secureprocessor.service_start=1
