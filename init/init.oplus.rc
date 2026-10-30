@@ -3,6 +3,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+import /odm/etc/init/hw/init.oplus.display.rc
+
 on init
     # Media
     setprop vendor.media.system.build_codename 0
