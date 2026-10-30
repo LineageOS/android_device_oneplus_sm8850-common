@@ -139,17 +139,6 @@ vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/libbt-hidlclient.so
 vendor/lib64/vendor.qti.hardware.bluetooth.btavsprovider-V1-ndk.so
 
-# C2PA
-vendor/bin/hw/vendor.qti.hardware.c2pa-aidl-service-qti
-vendor/bin/C2PAInternetService
-vendor/etc/init/c2painternetservice.rc
-vendor/etc/init/vendor.qti.hardware.c2pa-aidl-service-qti.rc
-vendor/etc/seccomp_policy/c2pa_network.policy
-vendor/etc/ssg/c2pa_enroll_config.json
-vendor/etc/ssg/c2pa_network_config.json
-vendor/etc/vintf/manifest/vendor.qti.hardware.c2pa-aidl-service.xml
-vendor/lib64/vendor.qti.hardware.c2pa-V1-ndk.so
-
 # CDSP
 vendor/bin/cdsprpcd
 vendor/etc/init/vendor.qti.cdsprpc-service.rc
@@ -186,11 +175,6 @@ vendor/etc/ssg/ta_config.json
 vendor/etc/ssg/tz_whitelist.json
 vendor/lib64/libqwes.so
 vendor/lib64/libtaautoload.so
-
-# DCF
-vendor/lib64/libDcfClientSensor.so
-vendor/lib64/libDcfHalFramework.so
-vendor/lib64/libDcfHalLogger.so
 
 # Diag
 system/lib64/vendor.qti.diaghal-V1-ndk.so:system_ext/lib64/vendor.qti.diaghal-V1-ndk.so
@@ -326,7 +310,6 @@ odm/bin/hw/vendor.oplus.hardware.biometrics.face@1.0-service_uff
 odm/etc/init/vendor.oplus.hardware.biometrics.face@1.0-service.rc
 odm/etc/vintf/manifest/manifest_oplus_face.xml
 odm/lib64/libstfaceunlockocl_uff.so;DUMMY_SHARED_LIB
-odm/init.oplus.face.rc
 
 # FastCRC
 vendor/lib64/libfastcrc.so
@@ -376,10 +359,6 @@ vendor/lib64/libllvm-qgl.so
 vendor/lib64/hw/vulkan.adreno.so
 
 # HDCP
-vendor/bin/hdcp1prov
-vendor/bin/hdcp2p2prov
-vendor/lib64/libhdcp1prov.so
-vendor/lib64/libhdcp2p2prov.so
 vendor/lib64/libhdcpsrm.so
 vendor/lib64/libmm-hdcpmgr.so
 
@@ -391,9 +370,7 @@ vendor/etc/init/hexlpservice.rc
 vendor/etc/seccomp_policy/hexlp.policy
 vendor/etc/vintf/manifest/vendor.qti.hardware.hexlp-service.xml
 vendor/lib64/libnspextensioncopyservice.so
-vendor/lib64/libnspextensionfrcservice.so
 vendor/lib64/libnspextensiongenericqnnservice.so
-vendor/lib64/libnspextensionsuperresolutionservice.so
 vendor/lib64/libnspframework.so
 vendor/lib64/vendor.qti.hardware.hexlp-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.hexlp-V2-ndk.so
@@ -470,7 +447,6 @@ vendor/lib64/libqc2audio_hwaudiocodec.so
 vendor/lib64/libqc2audio_platform.so
 vendor/lib64/libqc2audio_swaudiocodec.so
 vendor/lib64/libqc2audio_utils.so
-vendor/lib64/libqc2vppfilter.so
 vendor/lib64/libqcodec2_base.so
 vendor/lib64/libqcodec2_basecodec.so
 vendor/lib64/libqcodec2_core.so
@@ -478,7 +454,6 @@ vendor/lib64/libqcodec2_cvpfilter.so
 vendor/lib64/libqcodec2_filterbase.so
 vendor/lib64/libqcodec2_hooks.so
 vendor/lib64/libqcodec2_imgtxrfilter.so
-vendor/lib64/libqcodec2_mockfilter.so
 vendor/lib64/libqcodec2_platform.so
 vendor/lib64/libqcodec2_streaminteg_filter.so
 vendor/lib64/libqcodec2_utils.so
@@ -677,8 +652,6 @@ vendor/lib64/vendor.qti.qspmhal-impl.so
 
 # QTI service tracker
 vendor/bin/hw/vendor.qti.hardware.servicetrackeraidl-service
-vendor/bin/qt-service
-vendor/etc/init/init.qt-service.rc
 vendor/etc/init/vendor.qti.hardware.servicetrackeraidl-service.rc
 vendor/etc/vintf/manifest/vendor.qti.hardware.servicetrackeraidl-service.xml
 vendor/lib64/hw/vendor.qti.hardware.servicetrackeraidl-impl.so
@@ -709,14 +682,12 @@ vendor/lib64/vendor.qti.hardware.secureprocessor.device-V1-ndk.so
 # Security
 vendor/bin/hw/android.hardware.security.onekeymint-service-qti
 vendor/bin/hw/android.hardware.security.secretkeeper-service-qti
-vendor/bin/init.qti.keymaster.sh
 vendor/etc/init/android.hardware.security.onekeymint-service-qti.rc
 vendor/etc/init/android.hardware.security.secretkeeper-service-qti.rc
 vendor/etc/vintf/manifest/android.hardware.security.onekeymint-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.secretkeeper-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.secureclock-service-qti.xml
 vendor/etc/vintf/manifest/android.hardware.security.sharedsecret-service-qti.xml
-vendor/etc/android.hardware.security.onekeymint-service-qti.rc
 vendor/lib64/libkeymasterdeviceutils.so
 vendor/lib64/libkeymasterprovision.so
 vendor/lib64/libkeymasterutils.so
@@ -946,7 +917,6 @@ vendor/lib64/libvideoutils.so
 vendor/lib64/qti.video.utils.videobufferlayout.so
 
 # VPP
-vendor/lib64/libvpphvx.so
 vendor/lib64/vendor.qti.hardware.vpp-V1-ndk.so
 vendor/lib64/vendor.qti.hardware.vpp@1.1.so
 vendor/lib64/vendor.qti.hardware.vpp@1.2.so
@@ -966,10 +936,6 @@ vendor/etc/wifi/p2p_supplicant_overlay.conf
 vendor/etc/wifi/vendor_cmd.xml
 vendor/etc/wifi/wpa_supplicant_overlay.conf
 vendor/lib64/libtensorflowlite_c_qcom.so
-
-# WiFi (Oplus)
-odm/bin/init.oplus.wifi.sh
-odm/etc/init/hw/init.oplus.wifi.rc
 
 # WiFi Display (system)
 system/framework/WfdCommon.jar;BOOT_JAR
