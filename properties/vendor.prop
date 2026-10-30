@@ -86,11 +86,6 @@ persist.vendor.qcom.bluetooth.vsc_enabled=true
 ro.bluetooth.a2dp_offload.supported=true
 ro.vendor.qcom.bluetooth.nl_xdump.supported=true
 
-# C2PA
-vendor.c2pa.service_start=1
-vendor.c2pa_listener.service.enabled=false
-vendor.c2pa_listener.service_start=1
-
 # Camera
 ro.camera.enableCamera1MaxZsl=1
 ro.camera.notify_nfc=1
