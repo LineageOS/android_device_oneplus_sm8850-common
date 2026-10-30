@@ -260,7 +260,6 @@ TARGET_USES_VULKAN := true
 PRODUCT_PACKAGES += \
     charger_fstab.qcom \
     fstab.qcom \
-    fstab.qcom.vendor_ramdisk \
     init.class_main.sh \
     init.kernel.post_boot-alor_default_6_2.sh \
     init.kernel.post_boot-canoe_5_1.sh \
@@ -278,6 +277,9 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.oplus.rc \
     ueventd.qcom.rc
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/init/fstab.qcom:$(TARGET_COPY_OUT_VENDOR_RAMDISK)/first_stage_ramdisk/fstab.qcom
 
 $(call soong_config_set,libinit,vendor_init_lib,//$(LOCAL_PATH):libinit_oplus)
 
