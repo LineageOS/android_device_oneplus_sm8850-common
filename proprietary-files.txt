@@ -136,7 +136,6 @@ vendor/lib64/btaudio_offload_if.so
 vendor/lib64/libbluetooth_audio_session_aidl_qti.so
 vendor/lib64/libbluetooth_audio_session_qti.so
 vendor/lib64/libbluetooth_audio_session_qti_2_1.so
-vendor/lib64/libbt-hidlclient.so
 vendor/lib64/vendor.qti.hardware.bluetooth.btavsprovider-V1-ndk.so
 
 # CDSP
@@ -257,7 +256,6 @@ vendor/lib64/libsnapdragoncolor-qdcm.so
 vendor/lib64/libtestutils.so
 vendor/lib64/libtinyxml2_1.so
 vendor/lib64/libvmfilexfer.so
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
 # Display configs
 vendor/etc/display/DPU1010.xml
@@ -609,7 +607,6 @@ vendor/lib64/libsmemlog.so
 vendor/bin/qseecomd
 vendor/etc/init/qseecomd.rc
 vendor/etc/gpfspath_oem_config.xml
-vendor/lib64/hw/vendor.qti.hardware.qseecom@1.0-impl.so
 vendor/lib64/libGPreqcancel.so
 vendor/lib64/libGPreqcancel_svc.so
 vendor/lib64/libQSEEComAPI.so
@@ -900,11 +897,9 @@ odm/etc/init/init.touchDaemon.rc
 odm/etc/vintf/manifest/manifest_touch_aidl.xml
 
 # Trusted execution environment connector
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so
 vendor/lib64/libGPMTEEC_vendor.so
 vendor/lib64/libGPTEE_vendor.so
 vendor/lib64/vendor.qti.hardware.qteeconnector-V1-ndk.so
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so
 
 # Trusted user interface
 vendor/lib64/libsi.so
