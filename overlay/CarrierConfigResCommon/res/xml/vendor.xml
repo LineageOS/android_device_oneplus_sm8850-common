@@ -206,8 +206,14 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
     </carrier_config>
+    <carrier_config mcc="214" mnc="05">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="214" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="214" mnc="07">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="214" mnc="09">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -218,6 +224,9 @@
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
+    </carrier_config>
+    <carrier_config mcc="214" mnc="38">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="216" mnc="30">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -398,6 +407,7 @@
     <carrier_config mcc="234" mnc="30">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="31">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -410,6 +420,7 @@
     <carrier_config mcc="234" mnc="33">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="234" mnc="34">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -510,6 +521,7 @@
     <carrier_config mcc="244" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="244" mnc="06">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -518,6 +530,7 @@
     <carrier_config mcc="244" mnc="21">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="244" mnc="083">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -560,6 +573,9 @@
         <int name="default_rtt_mode_int" value="1" />
         <boolean name="rtt_upgrade_supported_bool" value="true" />
         <boolean name="rtt_downgrade_supported_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="248" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="250" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -664,6 +680,7 @@
         <boolean name="rtt_downgrade_supported_bool" value="true" />
         <int name="default_rtt_mode_int" value="1" />
         <boolean name="allow_emergency_video_calls_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="05">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -685,6 +702,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="08">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -702,6 +720,7 @@
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
         <boolean name="show_4g_for_lte_data_icon_bool" value="false" />
         <boolean name="hide_lte_plus_data_icon_bool" value="false" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="262" mnc="98">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -715,6 +734,9 @@
     <carrier_config mcc="268" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
     </carrier_config>
+    <carrier_config mcc="268" mnc="06">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="270" mnc="99">
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
         <int-array name="supported_sms_rp_cause_values_int_array" num="2">
@@ -724,6 +746,18 @@
     </carrier_config>
     <carrier_config mcc="286" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="302" mnc="720">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="302" mnc="721">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="302" mnc="820">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="310" mnc="720">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="334" mnc="050">
         <int-array name="supported_sms_rp_cause_values_int_array" num="5">
@@ -736,6 +770,78 @@
         <int-array name="sms_rp_cause_values_to_fallback_int_array" num="1">
             <item value="28" />
         </int-array>
+    </carrier_config>
+    <carrier_config mcc="404" mnc="00">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="03">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="10">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="16">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="31">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="40">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="45">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="49">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="70">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="90">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="92">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="93">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="94">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="95">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="96">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="97">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="404" mnc="98">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="51">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="52">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="53">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="54">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="55">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="405" mnc="56">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="840">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -766,6 +872,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="854">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -796,6 +903,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="855">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -826,6 +934,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="856">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -856,6 +965,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="857">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -886,6 +996,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="858">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -916,6 +1027,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="859">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -946,6 +1058,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="860">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -976,6 +1089,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="861">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1006,6 +1120,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="862">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1036,6 +1151,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="863">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1066,6 +1182,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="864">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1096,6 +1213,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="865">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1126,6 +1244,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="866">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1156,6 +1275,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="867">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1186,6 +1306,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="868">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1216,6 +1337,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="869">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1246,6 +1368,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="870">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1276,6 +1399,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="871">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1306,6 +1430,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="872">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1336,6 +1461,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="873">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1366,6 +1492,7 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="405" mnc="874">
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1396,6 +1523,23 @@
         <boolean name="config_retry_sms_over_ims" value="true" />
         <boolean name="config_update_service_status" value="false" />
         <boolean name="carrier_supports_multianchor_conference" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="419" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="419" mnc="04">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="424" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="424" mnc="03">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="424" mnc="03" imsi="42403022.*">
+        <boolean name="vonr_enabled_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
     </carrier_config>
     <carrier_config mcc="440" mnc="10">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1467,10 +1611,21 @@
         <boolean name="carrier_allow_turnoff_ims_bool" value="false" />
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
     </carrier_config>
+    <carrier_config mcc="452" mnc="04">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="454" mnc="00">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="00" gid1="547275554B3030656E">
+        <boolean name="vonr_enabled_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="03">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1485,20 +1640,52 @@
         <boolean name="check_mobile_data_for_cf" value="true" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
+    <carrier_config mcc="454" mnc="06">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="10">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="454" mnc="12">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="13">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="15">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="16">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="17">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="18">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="19">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="20">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="454" mnc="30">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="454" mnc="31">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="455" mnc="01">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="455" mnc="02">
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1520,6 +1707,9 @@
         </string-array>
         <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
+    <carrier_config mcc="455" mnc="04">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
     <carrier_config mcc="455" mnc="07">
         <boolean name="carrier_volte_available_bool" value="true" />
         <boolean name="carrier_vt_available_bool" value="true" />
@@ -1538,6 +1728,9 @@
             <item value="dun" />
             <item value="supl" />
         </string-array>
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="457" mnc="07">
         <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="00">
@@ -1614,7 +1807,6 @@
         <boolean name="supports_unidirectional_video_service_bool" value="true" />
         <boolean name="carrier_glasses_free_3D_video_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
@@ -1743,7 +1935,6 @@
         <boolean name="supports_unidirectional_video_service_bool" value="true" />
         <boolean name="carrier_glasses_free_3D_video_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
@@ -1794,7 +1985,6 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="04">
@@ -1864,7 +2054,6 @@
         <boolean name="supports_unidirectional_video_service_bool" value="true" />
         <boolean name="carrier_glasses_free_3D_video_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
     <carrier_config mcc="460" mnc="05">
@@ -1893,8 +2082,8 @@
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="disable_supplementary_services_in_airplane_mode_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="06">
         <int name="eutran_rsrp_hysteresis_db_int" value="1" />
@@ -2013,7 +2202,6 @@
         <boolean name="supports_unidirectional_video_service_bool" value="true" />
         <boolean name="carrier_glasses_free_3D_video_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
@@ -2089,7 +2277,6 @@
         <boolean name="supports_unidirectional_video_service_bool" value="true" />
         <boolean name="carrier_glasses_free_3D_video_supported_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="09">
@@ -2194,7 +2381,6 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="12">
@@ -2232,8 +2418,8 @@
         <boolean name="carrier_data_channel_supported_bool" value="true" />
         <boolean name="allow_ut_when_wifi_on_bool" value="true" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="always_send_plmn_name_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="460" mnc="13">
         <boolean name="use_only_rsrp_for_lte_signal_bar_bool" value="true" />
@@ -2371,7 +2557,6 @@
         </int-array>
         <boolean name="allow_hold_call_during_emergency_bool" value="false" />
         <boolean name="vonr_enabled_bool" value="true" />
-        <boolean name="vonr_setting_visibility_bool" value="false" />
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
         <boolean name="config_support_set_all_call_barring_over_ims" value="false" />
     </carrier_config>
@@ -2936,10 +3121,15 @@
             <item value="96" />
             <item value="111" />
         </int-array>
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="370">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
         <int name="ims_conference_size_limit_int" value="5" />
+    </carrier_config>
+    <carrier_config mcc="302" mnc="370" gid1="DD">
+        <boolean name="vonr_enabled_bool" value="true" />
+        <boolean name="vonr_setting_visibility_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="690">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
@@ -2956,6 +3146,7 @@
             <item value="96" />
             <item value="111" />
         </int-array>
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="880">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
@@ -2976,6 +3167,7 @@
             <item value="96" />
             <item value="111" />
         </int-array>
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="302" mnc="640">
         <boolean name="is_ims_conference_size_enforced_bool" value="true" />
@@ -2992,6 +3184,7 @@
             <item value="96" />
             <item value="111" />
         </int-array>
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="308" mnc="01">
         <boolean name="hide_enhanced_4g_lte_bool" value="true" />
@@ -3003,6 +3196,71 @@
             <item value="41" />
             <item value="69" />
         </int-array>
+    </carrier_config>
+    <carrier_config mcc="460" mnc="30">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="460" mnc="99">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="502" mnc="12">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="502" mnc="152">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="502" mnc="17">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="502" mnc="18">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="01">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="03">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="06">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="39">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="71">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="505" mnc="72">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="520" mnc="01">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="520" mnc="03">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="520" mnc="03" imsi="520030908.*">
+        <boolean name="vonr_enabled_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="01">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="02">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="03">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="05">
+        <boolean name="vonr_enabled_bool" value="true" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="05" gid1="0A">
+        <boolean name="vonr_enabled_bool" value="false" />
+        <boolean name="vonr_setting_visibility_bool" value="false" />
+    </carrier_config>
+    <carrier_config mcc="525" mnc="98">
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config mcc="602" mnc="01">
         <boolean name="fallback_sms_not_allowed_in_roaming" value="true" />
@@ -3069,6 +3327,7 @@
         <int name="carrier_default_wfc_ims_roaming_mode_int" value="10" />
         <boolean name="carrier_wfc_supports_wifi_only_bool" value="false" />
         <boolean name="carrier_wfc_supports_ims_preferred_bool" value="true" />
+        <boolean name="vonr_enabled_bool" value="true" />
     </carrier_config>
     <carrier_config>
         <string-array name="ratchet_rat_families" num="3">
