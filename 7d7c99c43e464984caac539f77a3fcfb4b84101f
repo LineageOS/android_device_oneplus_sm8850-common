@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "a6c1d225_f6fe0669",
+        "filename": "extract-files.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-01T09:24:21Z",
+      "side": 1,
+      "message": "Do yourself a favor and import this to the tree...",
+      "revId": "7d7c99c43e464984caac539f77a3fcfb4b84101f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
