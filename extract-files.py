@@ -82,8 +82,6 @@ blob_fixups: blob_fixups_user_type = {
         .regex_replace(r'\n.*OPLUS_FEATURE_WIFI_FTM[\s\S]*?OPLUS_FEATURE_WIFI_FTM.*\n', ''),
     'vendor/bin/hw/vendor.qti.media.c2@1.0-service': blob_fixup()
         .replace_needed('android.hardware.media.c2-V1-ndk.so', 'android.hardware.media.c2-V2-ndk.so'),
-    'vendor/etc/perf/perfboostsconfig.xml': blob_fixup()
-        .regex_replace(r'Enable="false"', r'Enable="true"'),
     'vendor/etc/sensors/hals.conf': blob_fixup()
         .regex_replace(r'sensors\.qsh\.so', 'sensors.fusionlight.so'),
     (
