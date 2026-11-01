@@ -34,6 +34,24 @@
       "parentUuid": "a6c1d225_f6fe0669",
       "revId": "7d7c99c43e464984caac539f77a3fcfb4b84101f",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": true,
+      "key": {
+        "uuid": "bb40b836_eb963171",
+        "filename": "extract-files.py",
+        "patchSetId": 3
+      },
+      "lineNbr": 88,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-01T11:27:00Z",
+      "side": 1,
+      "message": "Because this patching on-the-fly sucks. You can have a stable config in the tree with proper change tracking.",
+      "parentUuid": "7613b824_d027c59e",
+      "revId": "7d7c99c43e464984caac539f77a3fcfb4b84101f",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
