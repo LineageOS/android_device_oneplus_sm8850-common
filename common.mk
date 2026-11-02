@@ -35,9 +35,7 @@ PRODUCT_PACKAGES += \
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio.common-V1-ndk.vendor \
-    android.hardware.audio.core-V3-ndk.vendor \
     android.hardware.audio.core.sounddose-V1-ndk.vendor \
-    android.hardware.audio.core.sounddose-V3-ndk.vendor \
     audio.bluetooth.default \
     audio.r_submix.default \
     audio.usb.default \
@@ -105,7 +103,6 @@ PRODUCT_PACKAGES += \
     libtinyalsav2 \
     libtinycompress \
     libvisualizeraidl \
-    qti-audio-types-aidl-V1-ndk.vendor \
     qtiaudiohalvendorextn \
     sva_plugin
 
