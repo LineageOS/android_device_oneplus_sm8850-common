@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "9f6b9eaa_36364741",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 5
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-02T12:54:05Z",
+      "side": 1,
+      "message": "Use this: https://github.com/LineageOS/android_device_amlogic_g12-common/commit/9578bff83e257ea3317da77b4153d69f42479613",
+      "revId": "e8fdde3aa5f8e2985fd6c4468b9ab9730183ad97",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
