@@ -16,6 +16,24 @@
       "message": "Why was it abandoned? Any issue?",
       "revId": "4aeb75216a3c2c8b62bba3e7a81d55445e8fb498",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e68fa524_acd1ea21",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 13648
+      },
+      "writtenOn": "2026-11-02T10:26:05Z",
+      "side": 1,
+      "message": "Nevermind. Looks like it was squashed in the other removal change.",
+      "parentUuid": "1d0d1237_fd9dbea5",
+      "revId": "4aeb75216a3c2c8b62bba3e7a81d55445e8fb498",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ],
   "submitRequirementResults": [
