@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     libfmpal \
     libhfp_pal \
     libloudnessenhanceraidl \
+    libmcs \
     libmediautils_vendor.vendor \
     libmemunreachable.vendor \
     libpal_sounddose \
