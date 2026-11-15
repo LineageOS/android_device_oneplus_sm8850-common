@@ -194,6 +194,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.touchscreen.multitouch.jazzhand.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.touchscreen.multitouch.jazzhand.xml
 
+$(call soong_config_set_bool,qtidisplay,wcg_vendor_render_intents,true)
+
 # Doze
 ifneq ($(TARGET_IS_TABLET),true)
 PRODUCT_PACKAGES += \
